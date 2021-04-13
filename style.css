@@ -1,0 +1,50 @@
+/*Problem 1*/
+table{
+    border-style: solid;
+}
+th{
+    border-style: solid;
+}
+td{
+    border-style: solid;
+}
+
+/*Extra Credit */
+tr:nth-of-type(odd){
+    background-color: rebeccapurple;
+}
+tr:nth-of-type(even){
+    background-color: skyblue;
+}
+/*Problem 3*/
+div.outer-content{
+    background-color: deeppink;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+div.inner-content{
+    background-color: dodgerblue;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+/*Problem 4*/
+label{
+    border: 1px solid;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+}
+section.radio label{
+    border: none;
+}
+section.radio{
+    border: 1px solid;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+}
